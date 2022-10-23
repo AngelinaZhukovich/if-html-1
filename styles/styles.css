@@ -52,6 +52,15 @@ img {
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
   height: 625px;
   background-color: #10367c;
+}
+
+.footer-column{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
 }
