@@ -5,6 +5,7 @@
 
 body {
   width: 1440px;
+  margin-left: 100px;
 }
 
 .advantages {
@@ -53,14 +54,23 @@ img {
 
 .footer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   height: 625px;
   background-color: #10367c;
+  color: #FFFFFF;
 }
 
-.footer-column{
-  background-color: white;
-  width: 100px;
-  height: 100px;
-  border: 1px solid;
+.footer-column {
+  display: flex;
+  justify-content: space-around;
 }
+
+li{
+  list-style-type: none;
+}
+
+.rectangle{
+  margin-left: 165px;
+}
+
