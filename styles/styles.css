@@ -1,9 +1,12 @@
+@import url('fonts.css');
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   max-width: 1440px;
   padding: 16px;
   margin: 0 auto;
@@ -34,7 +37,7 @@ body {
 .advantages-content {
   display: flex;
   justify-content: center;
-  padding-top: 115px;
+  padding-top: 80px;
   padding-bottom: 115px;
   text-align: center;
 }
@@ -50,7 +53,7 @@ body {
 }
 
 img {
-  margin-bottom: 60px;
+  margin-bottom: 43px;
 }
 
 .footer {
@@ -60,7 +63,9 @@ img {
   height: 625px;
   background-color: #10367c;
   color: #FFFFFF;
-  padding: 120px 105px;
+  padding: 105px 105px;
+  font-size: 20px;
+  line-height: 50px;
   /*padding-left: 105px;*/
   /*padding-top: 120px;*/
   /*padding-bottom: 120px;*/
@@ -70,8 +75,9 @@ img {
 .footer-column {
   display: flex;
   justify-content: start;
-  gap: 220px ;
+  gap: 180px ;
   margin-left: -40px;
+  line-height: 23px;
 
 }
 
@@ -86,9 +92,11 @@ li{
 }
 
 .bold-font {
-  font-weight: bolder;
+  font-weight: 500;
+
 }
 .rectangle{
-
+  font-size: 14px;
+  margin: 0;
 }
 
