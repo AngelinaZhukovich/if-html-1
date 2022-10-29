@@ -4,8 +4,9 @@
 }
 
 body {
-  width: 1440px;
-  margin-left: 100px;
+  max-width: 1440px;
+  padding: 16px;
+  margin: 0 auto;
 }
 
 .advantages {
@@ -55,22 +56,39 @@ img {
 .footer {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 625px;
   background-color: #10367c;
   color: #FFFFFF;
+  padding: 120px 105px;
+  /*padding-left: 105px;*/
+  /*padding-top: 120px;*/
+  /*padding-bottom: 120px;*/
+
 }
 
 .footer-column {
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
+  gap: 220px ;
+  margin-left: -40px;
+
 }
+
+.support {
+  margin-left: 65px;
+}
+
 
 li{
   list-style-type: none;
+  padding: 12px 0;
 }
 
+.bold-font {
+  font-weight: bolder;
+}
 .rectangle{
-  margin-left: 165px;
+
 }
 
