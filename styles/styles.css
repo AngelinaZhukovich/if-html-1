@@ -12,6 +12,32 @@ body {
   margin: 0 auto;
 }
 
+.top-section{
+  display: block;
+  height: 900px;
+  width: 1440px;
+  background: url("../images/top-section.png") no-repeat;
+  padding-left: 105px;
+  padding-top: 50px;
+  padding-right: 105px;
+
+}
+
+
+.header>img {
+  padding-bottom: 257px;
+}
+
+.header>h2{
+  font-weight: 500;
+  color: #FFFFFF;
+  font-size: 50px;
+}
+
+form {
+  display: flex;
+}
+
 .advantages {
   display: block;
   height: 570px;
@@ -30,8 +56,7 @@ body {
   display: flex;
   border-top: 4px solid #f5bd41;
   width: 100px;
-  margin-left: 670px;
-  margin-top: 20px;
+  margin: 20px auto;
 }
 
 .advantages-content {
